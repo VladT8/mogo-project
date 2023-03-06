@@ -1,5 +1,112 @@
 .promo
-   // background: url (/img/bg/promo_bg.png) center (center/cover) no-repeat
-   
-   // transform: matrix(-1, 0, 0, 1, 0, 0)
    background: linear-gradient(360deg, rgba(237, 215, 137, 0.9) 0%, rgba(233, 130, 131, 0.9) 100%)
+   // background: url (./img/bg/promo.png) center (center/cover) no-repeat
+   // transform: matrix(-1, 0, 0, 1, 0, 0)
+   
+   &__subtitle
+      min-height: 80px
+      width: 100%
+      display: flex
+      justify-content: center
+      align-items: center
+      margin-top: 77px
+      @media (max-width: 1024px)
+         min-height: 54.25px
+         margin-top: 52px
+      @media (max-width: 768px)
+         margin-top: 34px
+      h3
+         font-family: 'Kaushan Script'
+         font-weight: 400
+         font-size: 64px
+         line-height: 93px
+         color: #FFFFFF
+         @media (max-width: 1024px)
+            font-size: 48px
+            line-height: 70px
+         @media (max-width: 768px)
+            font-size: 36px
+            line-height: 52px
+   &__title
+      min-height: 370px
+      width: 100%
+      display: flex
+      justify-content: center
+      align-items: center
+      @media (max-width: 1024px)
+         min-height: 250.91px
+      h1
+         font-family: 'Montserrat'
+         font-weight: 700
+         font-size: 144px
+         line-height: 176px
+         color: #FFFFFF
+         white-space: pre-line
+         text-align: right
+         text-transform: uppercase
+         @media (max-width: 1024px)
+            font-size: 96px
+            line-height: 117px
+         @media (max-width: 768px)
+            font-size: 48px
+            line-height: 59px
+   &__divider
+      width: 170px
+      border: 4px solid #FFFFFF
+      margin: 44px auto 0px
+      @media (max-width: 1024px)
+         margin-top: 30px
+      @media (max-width: 768px)
+         margin: 0 auto
+   &__btn
+      margin: 75px auto 0px
+      width: 369px
+      min-height: 78px
+      background: transparent
+      border: 4px solid #FFFFFF
+      font-weight: 700
+      font-size: 24px
+      line-height: 28px
+      display: flex
+      justify-content: center
+      align-items: center
+      text-transform: uppercase
+      color: #FFFFFF
+      @media (max-width: 1024px)
+         width: 317px
+         min-height: 53px
+      @media (max-width: 768px)
+         width: 100%px
+   &__wrapper
+      display: flex
+      justify-content: space-between
+   &__slider
+      width: 23%
+      min-height: 85px
+      border-top: 4px solid #F9EFCF
+      display: flex
+      align-items: center
+      margin-top: 116px
+      @media (max-width: 1024px)
+         margin-top: 79px
+      @media (max-width: 768px)
+         margin-top: 53px
+         // display: none
+      h4
+         font-weight: 700
+         font-size: 36px
+         line-height: 42px
+         color: #FFFFFF
+         @media (max-width: 1024px)
+            font-size: 24px
+            line-height: 28px
+         span
+            font-weight: 500
+            font-size: 18px
+            line-height: 21px
+            @media (max-width: 1024px)
+               font-size: 14px
+               line-height: 17px
+
+
+
