@@ -1,0 +1,82 @@
+.clients
+   padding: 42px 0px
+   &__wrapper
+      display: flex
+      justify-content: space-between
+      flex-wrap: wrap
+      margin-top: 42px
+      @media (max-width: 768px)
+         flex-direction: column
+         margin-top: 29px
+
+.client
+   width: 47%
+   display: flex
+   justify-content: space-between
+   color: $main-color
+   @media (max-width: 768px)
+      width: 100%
+      flex-direction: column
+      align-items: center
+   &__photo
+      width: 130px
+      height: 130px
+      @media (max-width: 1024px)
+         width: 89px
+         height: 89px
+   &__info
+      margin-left: 50px
+      @media (max-width: 768px)
+         display: flex
+         flex-direction: column
+         align-items: center
+         margin-left: 0px
+   &__name
+      min-height: 52px
+      @media (max-width: 768px)
+         margin-top: 20px
+      h4
+         font-weight: 700
+         font-size: 24px
+         line-height: 28px
+         display: flex
+         align-items: center
+         text-transform: uppercase
+         @media (max-width: 1024px)
+            font-size: 18px
+            line-height: 21px
+   &__job
+      min-height: 19px
+      display: flex
+      align-items: center
+      h5
+         font-weight: 400
+         font-size: 18px
+         line-height: 21px
+         text-transform: uppercase
+         @media (max-width: 1024px)
+            font-size: 14px
+            line-height: 16px
+   &__hr
+      width: 19%
+      border: 4px solid #F38281
+      margin-top: 32px
+   &__text
+      min-height: 150px
+      display: flex
+      align-items: center
+      margin-top: 32px
+      @media (max-width: 1024px)
+         min-height: 102px
+         margin-top: 22px
+      h5
+         font-weight: 400
+         font-size: 18px
+         line-height: 21px
+         @media (max-width: 1024px)
+            font-size: 14px
+            line-height: 16px
+         @media (max-width: 768px)
+            text-align: center
+
+   
