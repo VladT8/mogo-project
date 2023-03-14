@@ -1,0 +1,46 @@
+.team
+   padding: 84px 0px
+   &__wrapper
+      display: flex
+      justify-content: space-between
+      @media (max-width: 768px)
+         flex-direction: column
+         gap: 31px
+.worker
+   width: 31.7%
+   color: $main-color
+   @media (max-width: 768px)
+      width: 100%
+   img
+      width: 100%
+      height: 100%
+   &__name
+      display: flex
+      justify-content: center
+      align-items: center
+      min-height: 80px
+      @media (max-width: 1024px)
+         min-height: 49px
+      h4
+         font-weight: 700
+         font-size: 24px
+         line-height: 28px
+         text-transform: uppercase
+         @media (max-width: 1024px)
+            font-size: 18px
+            line-height: 21px
+   &__title
+      display: flex
+      justify-content: center
+      align-items: center
+      min-height: 30px
+      @media (max-width: 1024px)
+         min-height: 19px
+      h5
+         font-weight: 400
+         font-size: 18px
+         line-height: 21px
+         text-transform: uppercase
+         @media (max-width: 1024px)
+            font-size: 14px
+            line-height: 16px

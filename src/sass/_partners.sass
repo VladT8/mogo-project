@@ -1,0 +1,22 @@
+.partners
+   background: #F8F8F8
+   padding: 42px 0px
+   &__wrapper
+      display: flex
+      justify-content: space-between
+      align-items: center
+      @media (max-width: 768px)
+         flex-wrap: wrap
+         justify-content: space-evenly
+         & a:nth-child(3n)
+            width: 100%
+   &__link
+      display: block
+      width: 127px
+      height: 127px
+      display: flex
+      justify-content: center
+      align-items: center
+      @media (max-width: 1024px)
+         width: 86px
+         height: 86px
